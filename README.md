@@ -28,10 +28,10 @@ Getting album and song IDs from Spotify
 
 In the playlist/queue, right-click on either the song or the album and select 'Copy Spotify URI'. The ID is the string after the last colon character.
 
-> Spotify URI
+> Spotify URI  
 > spotify:album:0LUkfcP3XT922V0uhE3SDQ
->
-> Album ID
+>  
+> Album ID  
 > 0LUkfcP3XT922V0uhE3SDQ
 
 Getting Playlist data from Spotify
