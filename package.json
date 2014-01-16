@@ -1,5 +1,5 @@
 {
-    "name": "NodeBB Spotify Plugin",
+    "name": "nodebb-plugin-spotify",
     "version": "0.0.1",
     "description": "NodeBB plugin for embedding songs and albums on Spotify",
     "keywords": [
@@ -15,7 +15,7 @@
     "author": {
         "name": "Alfred Dobradi",
         "email": "alfreddobradi@gmail.com",
-        "url": "http://blog.brvy.me",
+        "url": "http://blog.brvy.me"
     },
     "main": "index.js",
     "repository": {
