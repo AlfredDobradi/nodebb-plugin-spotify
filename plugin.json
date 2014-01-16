@@ -1,0 +1,13 @@
+{
+    "id": "nodebb-plugin-spotify",
+    "name": "NodeBB Spotify Plugin",
+    "description": "NodeBB Plugin that allows users to embed songs and albums from Spotify inline in their posts.",
+    "library": "./index.js",
+    "hooks": [
+        {
+            "hook": "filter:post.parse",
+            "method": "parse",
+            "callbacked": true
+        }
+    ]
+}
