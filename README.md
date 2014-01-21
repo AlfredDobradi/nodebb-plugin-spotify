@@ -23,6 +23,12 @@ Playlists:
 [[spotify user=<user_name> playlist=<playlist_id>]]
 ```
 
+Quicker embed by Spotify URI:
+```
+[[spotify spotify:album:0LUkfcP3XT922V0uhE3SDQ]]
+[[spotify spotify:user:barveyhirdman:playlist:7qkKaHez1Wvwfz6DYHA026]]
+```
+
 Getting album and song IDs from Spotify
 ---
 
