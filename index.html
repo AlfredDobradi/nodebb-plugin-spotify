@@ -1,33 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
     <title>nodebb-plugin-spotify by AlfredDobradi</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
-
-    <header>
-      <div class="container">
+    <div class="wrapper">
+      <header>
         <h1>nodebb-plugin-spotify</h1>
-        <h2>NodeBB plugin for embedding songs and albums on Spotify</h2>
+        <p>NodeBB plugin for embedding songs and albums on Spotify</p>
 
-        <section id="downloads">
-          <a href="https://github.com/AlfredDobradi/nodebb-plugin-spotify/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/AlfredDobradi/nodebb-plugin-spotify/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/AlfredDobradi/nodebb-plugin-spotify" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+        <p class="view"><a href="https://github.com/AlfredDobradi/nodebb-plugin-spotify">View the Project on GitHub <small>AlfredDobradi/nodebb-plugin-spotify</small></a></p>
 
-    <div class="container">
-      <section id="main_content">
+
+        <ul>
+          <li><a href="https://github.com/AlfredDobradi/nodebb-plugin-spotify/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/AlfredDobradi/nodebb-plugin-spotify/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/AlfredDobradi/nodebb-plugin-spotify">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
         <h1>
 <a name="nodebb-plugin-spotify" class="anchor" href="#nodebb-plugin-spotify"><span class="octicon octicon-link"></span></a>nodebb-plugin-spotify</h1>
 
@@ -51,6 +51,12 @@
 <p>Playlists:</p>
 
 <pre><code>[[spotify user=&lt;user_name&gt; playlist=&lt;playlist_id&gt;]]
+</code></pre>
+
+<p>Quicker embed by Spotify URI:</p>
+
+<pre><code>[[spotify spotify:album:0LUkfcP3XT922V0uhE3SDQ]]
+[[spotify spotify:user:barveyhirdman:playlist:7qkKaHez1Wvwfz6DYHA026]]
 </code></pre>
 
 <h2>
@@ -82,8 +88,12 @@ barveyhirdman  </p>
 7qkKaHez1Wvwfz6DYHA026</p>
 </blockquote>
       </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/AlfredDobradi">AlfredDobradi</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-
+    <script src="javascripts/scale.fix.js"></script>
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
