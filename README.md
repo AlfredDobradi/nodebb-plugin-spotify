@@ -10,46 +10,26 @@ Usage
 
 Songs:
 ```
-[[spotify track=<track_id>]]
+Track URI
 ```
 
 Albums:
 ```
-[[spotify album=<album_id>]]
+Album URI
 ```
 
 Playlists:
 ```
-[[spotify user=<user_name> playlist=<playlist_id>]]
-```
-
-Quicker embed by Spotify URI:
-```
-[[spotify spotify:album:0LUkfcP3XT922V0uhE3SDQ]]
-[[spotify spotify:user:barveyhirdman:playlist:7qkKaHez1Wvwfz6DYHA026]]
+Playlist URI
 ```
 
 Getting album and song IDs from Spotify
 ---
 
-In the playlist/queue, right-click on either the song or the album and select 'Copy Spotify URI'. The ID is the string after the last colon character.
+In the playlist/queue, right-click on either the song or the album and select 'Copy Spotify URI'. Paste the full URI
 
-> Spotify URI  
-> spotify:album:0LUkfcP3XT922V0uhE3SDQ
->  
-> Album ID  
-> 0LUkfcP3XT922V0uhE3SDQ
 
 Getting Playlist data from Spotify
 ---
 
-In your sidebar, right-click on the playlist you want to embed, then select 'Copy Spotify URI'. The user name will be the string after 'user:', playlist ID will the string after 'playlist:'
-
-> Spotify URI  
-> spotify:user:barveyhirdman:playlist:7qkKaHez1Wvwfz6DYHA026
->
-> User name  
-> barveyhirdman  
->
-> Playlist  
-> 7qkKaHez1Wvwfz6DYHA026
+In your sidebar, right-click on the playlist you want to embed, then select 'Copy Spotify URI'. Paste the full Playlist URI:'
