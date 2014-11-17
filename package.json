@@ -1,6 +1,9 @@
 {
     "name": "nodebb-plugin-spotify",
-    "version": "0.0.4",
+    "version": "0.1.0",
+    "nbbpm": {
+        "compatibility": "^0.6.0"
+    },
     "description": "NodeBB plugin for embedding songs and albums on Spotify",
     "keywords": [
         "nodebb",
